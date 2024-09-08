@@ -1,0 +1,61 @@
+@import "../../vars.css";
+
+.navWrapper{
+    display: flex;
+    height: 55px;
+    box-shadow: 0 0 10px 1px #0003;
+}
+
+.navElement{
+    line-height:12px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navTitle {
+    font-family: var(--font-poppins);
+    font-size: 18.75px;
+    font-weight:500;
+    margin: 5px 0px 5px 0px;
+}
+
+.navText{
+    font-size: var(--font-poppins);
+    width: 500px;
+    font-size: 10px;
+}
+
+.navButton{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:20px;
+    margin-right: 25px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.guide{
+    font-family: var(--font-poppins);
+    font-size: 12.5px;
+}
+
+.selectBtn{
+    font-family: var(--font-poppins);
+    font-size: 14.05px;
+    color: black;
+}
+
+.logoAvatar{
+    border: 2px solid #2872fa;
+    border-radius: 100px;
+
+}
+
+
+.guideBtn{
+    font-weight: 600;
+}

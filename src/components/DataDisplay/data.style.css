@@ -1,0 +1,48 @@
+@import "../../vars.css";
+
+/* .dataWrapper{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: var(--font-poppins);
+    padding: 6px;
+    box-sizing: content-box;
+    border: 1px solid rgb(216, 208, 208);
+    height: 30px;
+    margin-top: 10px;
+    display: flex;
+} */
+
+.dataTitle{
+    width: 98%;
+}
+
+.source{
+    width: 8%;
+}
+
+.create{
+    width: 10%;
+}
+
+.tableTitle{
+    font-family: var(--font-poppins);
+    font-size: 16px;
+}
+
+.borderType{
+    border: 1px solid #2872fa;
+    color: #2872fa;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+}
+
+.table-font{
+    font-family: var(--font-poppins);
+    font-size: 13px;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+}
